@@ -1,0 +1,81 @@
+HELP.md
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+
+# ==========================================
+# Скомпилированный код и логи Java
+# ==========================================
+*.class
+*.log
+*.ctxt
+.mtj.tmp/
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# ==========================================
+# Сборщик Gradle (Исключаем кэш и папку сборки)
+# ==========================================
+.gradle/
+
+# ==========================================
+# Настройки IntelliJ IDEA
+# ==========================================
+.idea/
+htmlreport/
+
+# ==========================================
+# Секреты и настройки окружения
+# ==========================================
+.env
+.env.local
+.env.*.local
+.venv
+# ==========================================
+# Мусор операционных систем
+# ==========================================
+.DS_Store
+Thumbs.db
+
+dist
+node_modules
+config.json
